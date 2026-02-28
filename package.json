@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://Nitish-Durai.github.io/ND_Site",
+  "homepage": "https://nitish-durai.github.io",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

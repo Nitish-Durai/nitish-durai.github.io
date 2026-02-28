@@ -1,4 +1,4 @@
-import { motion, useInView, AnimatePresence } from 'framer-motion';
+import { motion, useInView } from 'framer-motion';
 import { useRef, useState, useEffect, useCallback } from 'react';
 import { portfolioData } from '@/data';
 import { Code2, BarChart2, Wrench } from 'lucide-react';

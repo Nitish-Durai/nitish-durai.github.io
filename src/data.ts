@@ -187,19 +187,19 @@ export const portfolioData: PortfolioData = {
         id: "1",
         title: "Data Science Intern",
         description: "SkillCraft Technology: Built demographic visualizations, implemented K-Means clustering, developed an SVM-based image classification model, and designed a real-time hand gesture recognition system.",
-        image: "/images/project1.jpg",
+        image: "/images/project2.jpg",
         technologies: ["Pandas", "Matplotlib", "OpenCV", "Deep Learning"],
         liveLink: "#",
-        githubLink: "#"
+        githubLink: "https://github.com/Nitish-Durai"
       },
       {
         id: "2",
         title: "PhoneSense",
         description: "A smartphone recommendation system that translates complex specifications into personalized recommendations with intelligent filtering logic.",
-        image: "/images/project2.jpg",
+        image: "/images/project1.jpg",
         technologies: ["Web App", "Filter Logic", "Data Analysis"],
         liveLink: "#",
-        githubLink: "#"
+        githubLink: "https://github.com/Nitish-Durai"
       },
       {
         id: "3",

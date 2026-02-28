@@ -1,0 +1,472 @@
+{
+  "site_name": "Nitish Portfolio",
+  "theme": {
+    "primary_color": "#000000",
+    "secondary_color": "#111111",
+    "accent_color": "#FFD000",
+    "accent_gradient": "linear-gradient(135deg, #FFD000, #FFB800)",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#BBBBBB",
+    "hover_accent": "#FFF176",
+    "font_primary": "Poppins, sans-serif",
+    "font_secondary": "Inter, sans-serif",
+    "border_style": "1px solid rgba(255, 208, 0, 0.2)",
+    "shadow_style": "0 0 20px rgba(255, 208, 0, 0.25)"
+  },
+
+  "layout_structure": {
+    "navbar": {
+      "position": "fixed",
+      "background": "rgba(0,0,0,0.85) with backdrop blur",
+      "height": "70px",
+      "left_logo": "IR Logo Placeholder",
+      "menu_items": [
+        { "label": "About", "href": "#about" },
+        { "label": "Skills", "href": "#skills" },
+        { "label": "Projects", "href": "#projects" },
+        { "label": "Contact", "href": "#contact" }
+      ],
+      "mobile_behavior": "hamburger menu with slide-in drawer from right",
+      "hover_effect": "underline slide animation in yellow",
+      "animation": "fade-in + slide-down on page load"
+    },
+
+    "hero_section": {
+      "id": "about",
+      "layout": "split screen",
+      "left_panel": {
+        "background": "#000000",
+        "content": {
+          "heading_small": "Hi, I am",
+          "heading_large": "Lorem Ipsum",
+          "subtitle": "Full Stack Developer / UI Designer",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "buttons": [
+            {
+              "label": "Download Resume",
+              "link": "#resume-link-placeholder",
+              "style": "filled yellow button"
+            }
+          ]
+        }
+      },
+      "right_panel": {
+        "background": "#111111",
+        "profile_image": "profile-image-placeholder.jpg",
+        "image_style": "slightly angled container with soft yellow glow border"
+      },
+      "animations": {
+        "text": "fade-up staggered animation",
+        "image": "slide-in from right",
+        "button": "pulse glow on hover"
+      },
+      "responsive_behavior": "stack vertically with image on top for mobile"
+    },
+
+    "skills_section": {
+      "id": "skills",
+      "background": "#0D0D0D",
+      "layout": "grid-based card layout",
+      "title": "Skills",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "skills_categories": [
+        {
+          "category": "Frontend",
+          "skills": ["HTML", "CSS", "JavaScript", "React"]
+        },
+        {
+          "category": "Backend",
+          "skills": ["Node.js", "Python", "Flask", "SQL"]
+        },
+        {
+          "category": "Tools",
+          "skills": ["Git", "Figma", "Docker", "Postman"]
+        }
+      ],
+      "card_style": {
+        "background": "#111111",
+        "border": "yellow subtle border",
+        "hover": "lift up + glow"
+      },
+      "animations": {
+        "section_entry": "scroll-triggered fade-up",
+        "cards": "staggered upward reveal",
+        "skill_items": "progress bar animate width from 0 to percentage"
+      },
+      "responsive_behavior": "3 columns desktop, 2 tablet, 1 mobile"
+    },
+
+    "projects_section": {
+      "id": "projects",
+      "background": "#000000",
+      "layout": "card grid with hover overlay",
+      "title": "Projects",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "projects": [
+        {
+          "title": "Project One",
+          "image": "project1-placeholder.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "live_link": "#live-link-placeholder",
+          "github_link": "#github-link-placeholder"
+        },
+        {
+          "title": "Project Two",
+          "image": "project2-placeholder.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "live_link": "#live-link-placeholder",
+          "github_link": "#github-link-placeholder"
+        },
+        {
+          "title": "Project Three",
+          "image": "project3-placeholder.jpg",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          "live_link": "#live-link-placeholder",
+          "github_link": "#github-link-placeholder"
+        }
+      ],
+      "card_style": {
+        "background": "#111111",
+        "image_overlay": "black overlay with yellow text fade-in",
+        "hover_effect": "scale(1.05) + border glow"
+      },
+      "animations": {
+        "section_entry": "fade-in + slide-up",
+        "cards": "zoom-in staggered",
+        "hover": "image darkens + project links slide-up"
+      },
+      "responsive_behavior": "3 columns desktop, 2 tablet, 1 mobile"
+    },
+
+    "contact_section": {
+      "id": "contact",
+      "background": "#0D0D0D",
+      "layout": "centered form layout",
+      "title": "Contact Me",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "form_fields": [
+        { "label": "Name", "type": "text", "placeholder": "Enter your name" },
+        { "label": "Email", "type": "email", "placeholder": "Enter your email" },
+        { "label": "Message", "type": "textarea", "placeholder": "Enter your message" }
+      ],
+      "submit_button": {
+        "label": "Send Message",
+        "style": "yellow filled button with glow"
+      },
+      "social_links": [
+        { "platform": "GitHub", "link": "#github-placeholder" },
+        { "platform": "LinkedIn", "link": "#linkedin-placeholder" },
+        { "platform": "Email", "link": "#email-placeholder" }
+      ],
+      "animations": {
+        "section_entry": "slide-up fade-in",
+        "form_fields": "focus border highlight in yellow",
+        "button": "scale + glow on hover"
+      },
+      "responsive_behavior": "full-width stacked fields on mobile"
+    },
+
+    "footer": {
+      "background": "#000000",
+      "text": "© 2026 Lorem Ipsum | All Rights Reserved",
+      "style": "minimal centered text",
+      "animation": "fade-in on scroll"
+    }
+  },
+
+  "global_animations": {
+    "scroll_behavior": "smooth scroll enabled",
+    "scroll_trigger_library": "AOS or Framer Motion",
+    "page_load": "initial fade-in of entire page",
+    "swipe_up_effect": "sections animate upward when entering viewport",
+    "micro_interactions": [
+      "buttons glow on hover",
+      "cards slightly lift",
+      "navbar links underline slide animation",
+      "cursor subtle yellow trail (optional advanced feature)"
+    ]
+  },
+
+  "responsiveness": {
+    "breakpoints": {
+      "mobile": "max-width 768px",
+      "tablet": "769px - 1024px",
+      "desktop": "1025px and above"
+    },
+    "mobile_adjustments": [
+      "stack hero vertically",
+      "reduce font sizes proportionally",
+      "collapse navbar to hamburger",
+      "convert grids to single column"
+    ]
+  }
+}
+
+{
+  "animation_philosophy": {
+    "principle": "Motion should guide attention, not distract.",
+    "style": "Subtle parallax + smooth easing + staggered reveal",
+    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+    "duration_standard": "0.6s",
+    "duration_slow": "1s",
+    "animation_library_suggestion": ["Framer Motion", "GSAP", "AOS"],
+    "performance_focus": "Use transform and opacity only (avoid layout thrashing)"
+  },
+
+  "global_effects": {
+    "smooth_scroll": "enabled",
+    "page_transition": "fade-through transition when refreshing",
+    "cursor_effect": {
+      "type": "minimal yellow ring follower",
+      "hover_interaction": "expand slightly on clickable elements"
+    },
+    "background_effect": {
+      "type": "subtle animated gradient mesh in black/yellow tones",
+      "opacity": "very low",
+      "movement": "slow floating motion"
+    },
+    "scroll_progress_bar": {
+      "position": "top",
+      "color": "#FFD000",
+      "height": "3px"
+    }
+  },
+
+  "navbar": {
+    "animation": {
+      "on_load": "slide-down + fade-in",
+      "on_scroll": "background darkens + subtle shadow",
+      "active_link_indicator": "animated underline grows from left to right",
+      "hover": "text color transition to yellow + underline slide"
+    },
+    "mobile_menu": {
+      "type": "slide-in from right",
+      "overlay_blur": "backdrop blur",
+      "menu_item_animation": "staggered fade-up"
+    }
+  },
+
+  "hero_section": {
+    "entry_sequence": [
+      "small heading fades up",
+      "main heading slides up with slight delay",
+      "subtitle fades in",
+      "description slides up",
+      "button appears with glow pulse",
+      "profile image slides from right with scale 0.95 to 1"
+    ],
+    "image_animation": {
+      "hover": "very subtle floating motion (y-axis 5px infinite loop)",
+      "glow": "animated yellow shadow breathing effect"
+    },
+    "text_effect": {
+      "main_heading": "letter-by-letter reveal animation",
+      "subtitle": "fade + slight blur-to-sharp transition"
+    },
+    "parallax": {
+      "on_scroll": "text moves slower than image for depth effect"
+    }
+  },
+
+  "about_section": {
+    "layout": "two-column with image and text",
+    "animations": {
+      "image_reveal": "clip-path reveal from bottom",
+      "text_reveal": "fade-up staggered",
+      "resume_button": "border draw animation on hover"
+    }
+  },
+
+  "skills_section": {
+    "animation_style": "dynamic but controlled",
+    "section_entry": "slide-up + opacity",
+    "skill_cards": {
+      "initial": "translateY(50px) + opacity 0",
+      "in_view": "translateY(0) + opacity 1",
+      "hover": "lift + glow + subtle rotate(1deg)"
+    },
+    "progress_bars": {
+      "type": "animated width expansion",
+      "effect": "fill grows from 0% to defined percentage",
+      "color": "yellow gradient"
+    },
+    "icons": {
+      "hover": "scale 1.1 + slight yellow tint"
+    }
+  },
+
+  "projects_section": {
+    "card_layout": "grid with layered hover",
+    "entry_animation": "staggered zoom-in + fade-up",
+    "hover_effect": {
+      "image": "scale 1.08",
+      "overlay": "dark fade overlay",
+      "project_info": "slides up from bottom",
+      "links": "appear with fade + slide"
+    },
+    "advanced_effect": {
+      "tilt": "3D tilt effect on mouse move",
+      "shadow": "dynamic based on cursor position"
+    }
+  },
+
+  "contact_section": {
+    "entry_animation": "fade-up with slight blur removal",
+    "form_fields": {
+      "on_focus": "border animates to yellow + subtle glow",
+      "label": "floating label animation"
+    },
+    "submit_button": {
+      "hover": "scale 1.05 + glow pulse",
+      "click": "ripple animation"
+    },
+    "social_icons": {
+      "hover": "rotate 5deg + yellow glow"
+    }
+  },
+
+  "section_transition_effects": {
+    "swipe_up_reveal": {
+      "trigger": "when section enters viewport",
+      "animation": "translateY(80px) to 0 + fade-in",
+      "stagger_children": true
+    },
+    "divider_effect": {
+      "style": "thin yellow animated line between sections",
+      "animation": "grows from left to right on scroll"
+    }
+  },
+
+  "micro_interactions": {
+    "buttons": "hover glow + slight lift",
+    "links": "smooth color transition",
+    "cards": "subtle shadow grow",
+    "scroll_to_top_button": {
+      "appearance": "bottom right circular yellow button",
+      "animation": "fade-in after 40% scroll"
+    }
+  },
+
+  "responsiveness": {
+    "mobile_animation_adjustment": "reduce heavy motion effects",
+    "disable_tilt_on_mobile": true,
+    "reduce_parallax": true,
+    "maintain_smooth_scroll": true
+  }
+}
+
+{
+  "advanced_visual_system": {
+    "particle_background": {
+      "description": "Subtle floating yellow particles in hero and skills section",
+      "implementation": "canvas-based or tsParticles",
+      "color": "#FFD000",
+      "opacity": 0.08,
+      "size_range": "1px - 3px",
+      "movement": {
+        "direction": "random slow drift",
+        "speed": "very low",
+        "interactive": false
+      },
+      "density": "low",
+      "performance_rule": "disable on mobile for optimization"
+    },
+
+    "magnetic_buttons": {
+      "description": "Cursor proximity causes button to subtly move toward cursor",
+      "applies_to": [
+        "Hero Resume Button",
+        "Contact Submit Button",
+        "Project Live Links"
+      ],
+      "interaction_model": {
+        "radius": "80px proximity detection",
+        "translation_strength": "max 8px shift",
+        "easing": "spring stiffness 200 damping 15",
+        "on_hover": "scale 1.05 + glow intensifies",
+        "on_click": "micro compress animation"
+      },
+      "fallback_mobile": "disabled"
+    },
+
+    "gradient_shimmer_text": {
+      "applies_to": "Main hero name",
+      "gradient": "linear-gradient(90deg, #FFD000, #FFF176, #FFD000)",
+      "background_size": "200% auto",
+      "animation": {
+        "type": "infinite slow shimmer",
+        "duration": "4s",
+        "easing": "linear"
+      },
+      "implementation": "background-clip: text; color: transparent;",
+      "professional_control": "low contrast shimmer to avoid distraction"
+    }
+  },
+
+  "hero_section_upgrade": {
+    "layer_stack": [
+      "Particle background layer (z-index: 0)",
+      "Content layer (z-index: 1)",
+      "Floating image layer (z-index: 2)"
+    ],
+    "profile_image": {
+      "floating_motion": {
+        "type": "subtle Y-axis float",
+        "range": "6px",
+        "duration": "5s",
+        "loop": "infinite alternate ease-in-out"
+      },
+      "glow": "soft animated yellow halo breathing effect"
+    }
+  },
+
+  "micro_interaction_enhancement": {
+    "buttons": {
+      "hover_glow": "0 0 25px rgba(255,208,0,0.4)",
+      "transition": "all 0.3s ease"
+    },
+    "links": {
+      "underline": "animated yellow bar grows left to right",
+      "hover_color": "#FFD000"
+    },
+    "cards": {
+      "hover_tilt": {
+        "enabled": true,
+        "max_rotate": "3deg",
+        "shadow_dynamic": true
+      }
+    }
+  },
+
+  "professional_constraints": {
+    "max_simultaneous_animations": 3,
+    "particle_visibility_sections": ["hero", "skills"],
+    "shimmer_only_on_name": true,
+    "magnetic_effect_only_primary_cta": true,
+    "animation_duration_consistency": "0.4s - 0.8s range",
+    "reduce_motion_preference": "respect prefers-reduced-motion"
+  },
+
+  "section_transition_refinement": {
+    "swipe_up": {
+      "distance": "60px",
+      "duration": "0.7s",
+      "stagger_delay": "0.1s per child"
+    },
+    "divider_line": {
+      "color": "#FFD000",
+      "height": "2px",
+      "animation": "grow from 0% to 100% width on scroll"
+    }
+  },
+
+  "overall_experience_flow": {
+    "scroll_experience": [
+      "Hero with floating image + shimmer name",
+      "Smooth swipe-up into skills with particles fading",
+      "Projects grid with 3D hover tilt",
+      "Contact section with magnetic CTA"
+    ],
+    "emotional_tone": "Confident, modern, premium, controlled energy"
+  }
+}

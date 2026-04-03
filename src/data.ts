@@ -185,30 +185,57 @@ export const portfolioData: PortfolioData = {
     items: [
       {
         id: "1",
-        title: "Data Science Intern",
-        description: "SkillCraft Technology: Built demographic visualizations, implemented K-Means clustering, developed an SVM-based image classification model, and designed a real-time hand gesture recognition system.",
-        image: "/images/project2.jpg",
-        technologies: ["Pandas", "Matplotlib", "OpenCV", "Deep Learning"],
+        title: "Data Analysis on Zepto Dataset",
+        description: "A hands-on SQL project focused on extracting business insights from a dataset modeled after the Zepto quick-commerce delivery platform.",
+        image: "/images/project1.jpg",
+        technologies: ["Pandas", "Matplotlib", "OpenCV", "Data Analytics"],
         liveLink: "#",
-        githubLink: "https://github.com/Nitish-Durai"
+        githubLink: "https://github.com/Nitish-Durai/Zepto-delivery-sql-data-analysis"
       },
       {
         id: "2",
-        title: "PhoneSense",
-        description: "A smartphone recommendation system that translates complex specifications into personalized recommendations with intelligent filtering logic.",
-        image: "/images/project1.jpg",
-        technologies: ["Web App", "Filter Logic", "Data Analysis"],
+        title: "End-to-End Data Analytics Pipeline",
+        description: "A comprehensive project covering the full data lifecycle, from data extraction to final visualization using a combined tech stack.",
+        image: "/images/project2.jpg",
+        technologies: ["Python", "EDA", "Data Analytics", "Machine Learing"],
         liveLink: "#",
-        githubLink: "https://github.com/Nitish-Durai"
+        githubLink: "https://github.com/Nitish-Durai/Customer-Trend-data-analysis"
       },
       {
         id: "3",
-        title: "Personal Portfolio",
-        description: "A fully responsive portfolio website showcasing projects and certifications.",
-        image: "/images/project4.jpg",
-        technologies: ["HTML", "CSS", "JavaScript"],
+        title: "Smart Expense Analyser",
+        description: "A personal finance tool designed to track, categorize, and visualize spending habits automatically.",
+        image: "/images/project3.jpg",
+        technologies: ["Web App", "Filter Logic", "Data Analysis"],
         liveLink: "#",
-        githubLink: "https://github.com/Nitish-Durai"
+        githubLink: "https://github.com/Nitish-Durai/Smart-expense-analyser"
+      },
+      {
+        id: "4",
+        title: "Handwritten Digit Recognition System",
+        description: "A deep learning-based computer vision system that classifies handwritten digits (0–9) using the MNIST dataset.",
+        image: "/images/project4.jpg",
+        technologies: ["Python", "Pandas", "OpenCV", "Deep Learning"],
+        liveLink: "#",
+        githubLink: "https://github.com/Nitish-Durai/Hand-Written-Number-Recognition"
+      },
+      {
+        id: "5",
+        title: "Book Recommendation System",
+        description: "A recommendation system that suggests books to users based on their preferences using collaborative filtering and similarity-based algorithms",
+        image: "/images/project5.jpg",
+        technologies: ["Streamlit","scikit-learn", "Machince Learining", "AI"],
+        liveLink: "#",
+        githubLink: "https://github.com/Nitish-Durai/Book-Recommendations-system"
+      },
+      {
+        id: "6",
+        title: "Movie Recommendation System",
+        description: " A data science-driven recommendation engine that suggests movies based on user preferences using content-based and collaborative filtering techniques.",
+        image: "/images/project6.jpg",
+        technologies: ["Python","scikit-learn", "Machince Learining", "AI"],
+        liveLink: "#",
+        githubLink: "https://github.com/Nitish-Durai/Movie-Recommendation-system"
       }
     ]
   },

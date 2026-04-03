@@ -139,9 +139,9 @@ export const portfolioData: PortfolioData = {
     ],
     stats: [
       { value: "8.01", label: "CGPA (B.Tech)" },
-      { value: "4+", label: "Projects Completed" },
-      { value: "1", label: "Internships" },
-      { value: "3+", label: "Certifications" }
+      { value: "7+", label: "Projects Completed" },
+      { value: "01", label: "Internships" },
+      { value: "5+", label: "Certifications" }
     ]
   },
   
